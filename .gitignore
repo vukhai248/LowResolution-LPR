@@ -1,0 +1,80 @@
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ------------------------------
+# Python cache / build
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ------------------------------
+# Python environments
+# ------------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ------------------------------
+# Test / lint / type-check caches
+# ------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ------------------------------
+# Jupyter
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# Logs / runtime
+# ------------------------------
+*.log
+logs/
+wandb/
+mlruns/
+
+# ------------------------------
+# ML artifacts / checkpoints
+# ------------------------------
+checkpoints/
+outputs/
+results/
+experiments/
+runs/
+
+
+# ------------------------------
+# Local secrets / credentials
+# ------------------------------
+client_secret*.json
+service_account*.json
+*.pem
+*.key
+.env
+.env.*
+
+# ------------------------------
+# DVC local config (contains machine-local secrets)
+# ------------------------------
+.dvc/config.local
