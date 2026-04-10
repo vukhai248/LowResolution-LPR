@@ -62,6 +62,8 @@ outputs/
 results/
 experiments/
 runs/
+weights/
+*.pth
 
 
 # ------------------------------
