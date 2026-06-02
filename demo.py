@@ -398,7 +398,7 @@ with col_upload:
     )
 with col_clear_btn:
     st.markdown("<div style='height: 32px'></div>", unsafe_allow_html=True)
-    if st.button("🗑️ Xoá tất cả"):
+    if st.button("Xoá tất cả"):
         st.session_state.uploader_key += 1
         st.rerun()
 
@@ -412,7 +412,7 @@ if uploaded_files:
     batch_tensor, frame_info = build_5_frames(pil_images)
 
     # Hiển thị 5 frame preview
-    st.markdown("### 🖼️ Preview 5 Frame")
+    st.markdown("### Preview 5 Frame")
     cols = st.columns(5, gap="small")
     for i, (col, info) in enumerate(zip(cols, frame_info)):
         with col:
